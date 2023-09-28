@@ -1,0 +1,1 @@
+start ""  "E:\Python3.11\¿¼¼¶\º£¹ê»­Í¼\autoProccess\init.exe"
