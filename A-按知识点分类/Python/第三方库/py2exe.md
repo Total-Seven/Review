@@ -21,5 +21,13 @@ so converting an EXE file to a format that makes it usable on a different platfo
 * GUI：模态框 + [文件操作（路径、处理）](A-按知识点分类/Python/File操作) 
 
   ### 模态框 ———— [win32ui](https://mhammond.github.io/pywin32/win32ui.html) 
-  `from win32ui import CreateFileDialog`
-  有好多Crate方法，我只用了`CreateFileDialog`
+  `from win32ui import CreateFileDialog`  
+  有好多Crate方法，我只用了`CreateFileDialog`  
+  带归类：[Test-HelloWin32ui](../../../B-按性质分类/Test/HelloWin32ui.ipynb)  
+  
+
+## Review Question
+1. 如何py文件转换为exe文件？
+2. 如何用Python模拟windows的各种窗口、界面？
+3. 如何模拟文件对话框并获取选择的文件路径？
+4. 

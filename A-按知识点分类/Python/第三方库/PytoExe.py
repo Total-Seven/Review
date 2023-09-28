@@ -15,7 +15,7 @@ pyToexe = r"pyinstaller -F -w "+fileName
 final_Command = goto + r" & " + pyToexe
 system(final_Command)
 
-
+    
 ''' 处理痕迹 '''
 
 # 移动文件(查重路径，要移动的文件的路径，要移动到的目录，模式)
