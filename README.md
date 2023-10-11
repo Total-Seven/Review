@@ -1,3 +1,32 @@
+## 2023.10.11
+1. HotKeyScript
+2. 系统脚本
+3. Python
+   * 爬虫
+   * 自动化
+   * 第三方库
+   * [basic](A-按知识点分类\Python\Basic)
+       * [file操作](A-按知识点分类\Python\Basic\File操作)
+       * [Function函数](A-按知识点分类\Python\Basic\Function)
+           * [高阶函数](A-按知识点分类\Python\Basic\Function\高阶函数)
+           * [装饰器](A-按知识点分类\Python\Basic\Function\装饰器)
+       * [普通语法](A-按知识点分类\Python\Basic\Syntax)
+       * [Type类型](A-按知识点分类\Python\Basic\类型)
+           * [sequence](A-按知识点分类\Python\Basic\类型\sequence)
+           * [集合操作](A-按知识点分类\Python\Basic\类型\集合操作)
+           * [字典操作](A-按知识点分类\Python\Basic\类型\字典操作)
+           * [字符串操作](A-按知识点分类\Python\Basic\类型\字符串操作)
+               * [格式化](A-按知识点分类\Python\Basic\类型\字符串操作\格式化) 
+   * [turtle](A-按知识点分类\Python\turtle画图)
+   * [标准库](A-按知识点分类\Python\标准库)
+       * [math](A-按知识点分类\Python\标准库\math)
+       * [random](A-按知识点分类\Python\标准库\random)
+       * [time](A-按知识点分类\Python\标准库\time)
+           * [datetime](A-按知识点分类\Python\标准库\time\datetime)
+        
+
+---
+ 
 # Start in 2023.09.28
 😊😊😊😊😊😊😊😊😊
 ## before 2023.09.28 
@@ -7,12 +36,10 @@
    *  [爬虫](A-按知识点分类/Python/Crawler)
    *  [自动化](A-按知识点分类/Python/自动化)
    *  [File操作](A-按知识点分类/Python/File操作)
-<<<<<<< HEAD
    *  [第三方库]((A-按知识点分类/Python/第三方库))
-=======
-   *  [第三方库]((A-按知识点分类/Python/第三方库))
-  
+
 ---
+
 
 # 代码如何复习？
 
