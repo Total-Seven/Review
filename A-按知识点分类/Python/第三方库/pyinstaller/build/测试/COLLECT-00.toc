@@ -1,0 +1,20 @@
+([('测试.exe',
+   'E:\\1.007\\Code '
+   'Review\\A-按知识点分类\\Python\\第三方库\\pyinstaller\\build\\测试\\测试.exe',
+   'EXECUTABLE'),
+  ('python311.dll', 'E:\\Python3.11\\python311.dll', 'BINARY'),
+  ('VCRUNTIME140.dll', 'E:\\Python3.11\\VCRUNTIME140.dll', 'BINARY'),
+  ('_decimal.pyd', 'E:\\Python3.11\\DLLs\\_decimal.pyd', 'EXTENSION'),
+  ('_hashlib.pyd', 'E:\\Python3.11\\DLLs\\_hashlib.pyd', 'EXTENSION'),
+  ('_lzma.pyd', 'E:\\Python3.11\\DLLs\\_lzma.pyd', 'EXTENSION'),
+  ('_bz2.pyd', 'E:\\Python3.11\\DLLs\\_bz2.pyd', 'EXTENSION'),
+  ('select.pyd', 'E:\\Python3.11\\DLLs\\select.pyd', 'EXTENSION'),
+  ('_socket.pyd', 'E:\\Python3.11\\DLLs\\_socket.pyd', 'EXTENSION'),
+  ('unicodedata.pyd', 'E:\\Python3.11\\DLLs\\unicodedata.pyd', 'EXTENSION'),
+  ('_ssl.pyd', 'E:\\Python3.11\\DLLs\\_ssl.pyd', 'EXTENSION'),
+  ('libcrypto-1_1.dll', 'E:\\Python3.11\\DLLs\\libcrypto-1_1.dll', 'BINARY'),
+  ('libssl-1_1.dll', 'E:\\Python3.11\\DLLs\\libssl-1_1.dll', 'BINARY'),
+  ('base_library.zip',
+   'E:\\1.007\\Code '
+   'Review\\A-按知识点分类\\Python\\第三方库\\pyinstaller\\build\\测试\\base_library.zip',
+   'DATA')],)
