@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+.r1 {font-style: italic}
+.r2 {font-weight: bold}
+.r3 {color: #008080; text-decoration-color: #008080}
+.r4 {color: #800080; text-decoration-color: #800080}
+body {
+    color: #000000;
+    background-color: #ffffff;
+}
+</style>
+</head>
+<body>
+    <pre style="font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><code><span class="r1">                                       Austria                                       </span>
+┏━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┓
+┃<span class="r2"> date               </span>┃<span class="r2"> home_team          </span>┃<span class="r2"> score              </span>┃<span class="r2"> away_team          </span>┃
+┡━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━┩
+│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 1 - 3              </span>│<span class="r4"> 1 - 3              </span>│<span class="r3"> 1 - 3              </span>│<span class="r4"> 1 - 3              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 09-08-2023         </span>│<span class="r4"> 09-08-2023         </span>│<span class="r3"> 09-08-2023         </span>│<span class="r4"> 09-08-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 1 - 3              </span>│<span class="r4"> 1 - 3              </span>│<span class="r3"> 1 - 3              </span>│<span class="r4"> 1 - 3              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 4              </span>│<span class="r4"> 0 - 4              </span>│<span class="r3"> 0 - 4              </span>│<span class="r4"> 0 - 4              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 5              </span>│<span class="r4"> 0 - 5              </span>│<span class="r3"> 0 - 5              </span>│<span class="r4"> 0 - 5              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 4              </span>│<span class="r4"> 0 - 4              </span>│<span class="r3"> 0 - 4              </span>│<span class="r4"> 0 - 4              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 0 - 5              </span>│<span class="r4"> 0 - 5              </span>│<span class="r3"> 0 - 5              </span>│<span class="r4"> 0 - 5              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 4 - 1              </span>│<span class="r4"> 4 - 1              </span>│<span class="r3"> 4 - 1              </span>│<span class="r4"> 4 - 1              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 2 - 4              </span>│<span class="r4"> 2 - 4              </span>│<span class="r3"> 2 - 4              </span>│<span class="r4"> 2 - 4              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 3 - 2              </span>│<span class="r4"> 3 - 2              </span>│<span class="r3"> 3 - 2              </span>│<span class="r4"> 3 - 2              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 1 - 5              </span>│<span class="r4"> 1 - 5              </span>│<span class="r3"> 1 - 5              </span>│<span class="r4"> 1 - 5              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 4              </span>│<span class="r4"> 0 - 4              </span>│<span class="r3"> 0 - 4              </span>│<span class="r4"> 0 - 4              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 30-07-2023         </span>│<span class="r4"> 30-07-2023         </span>│<span class="r3"> 30-07-2023         </span>│<span class="r4"> 30-07-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 1 - 5              </span>│<span class="r4"> 1 - 5              </span>│<span class="r3"> 1 - 5              </span>│<span class="r4"> 1 - 5              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 4              </span>│<span class="r4"> 0 - 4              </span>│<span class="r3"> 0 - 4              </span>│<span class="r4"> 0 - 4              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 3 - 2              </span>│<span class="r4"> 3 - 2              </span>│<span class="r3"> 3 - 2              </span>│<span class="r4"> 3 - 2              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 28-07-2023         </span>│<span class="r4"> 28-07-2023         </span>│<span class="r3"> 28-07-2023         </span>│<span class="r4"> 28-07-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 05-08-2023         </span>│<span class="r4"> 05-08-2023         </span>│<span class="r3"> 05-08-2023         </span>│<span class="r4"> 05-08-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 1 - 3              </span>│<span class="r4"> 1 - 3              </span>│<span class="r3"> 1 - 3              </span>│<span class="r4"> 1 - 3              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 3 - 1              </span>│<span class="r4"> 3 - 1              </span>│<span class="r3"> 3 - 1              </span>│<span class="r4"> 3 - 1              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 28-07-2023         </span>│<span class="r4"> 28-07-2023         </span>│<span class="r3"> 28-07-2023         </span>│<span class="r4"> 28-07-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 05-08-2023         </span>│<span class="r4"> 05-08-2023         </span>│<span class="r3"> 05-08-2023         </span>│<span class="r4"> 05-08-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 0 - 5              </span>│<span class="r4"> 0 - 5              </span>│<span class="r3"> 0 - 5              </span>│<span class="r4"> 0 - 5              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│<span class="r3"> 03-09-2023         </span>│<span class="r4"> 03-09-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 5              </span>│<span class="r4"> 0 - 5              </span>│<span class="r3"> 0 - 5              </span>│<span class="r4"> 0 - 5              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 05-08-2023         </span>│<span class="r4"> 05-08-2023         </span>│<span class="r3"> 05-08-2023         </span>│<span class="r4"> 05-08-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 5 - 1              </span>│<span class="r4"> 5 - 1              </span>│<span class="r3"> 5 - 1              </span>│<span class="r4"> 5 - 1              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 30-07-2023         </span>│<span class="r4"> 30-07-2023         </span>│<span class="r3"> 30-07-2023         </span>│<span class="r4"> 30-07-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 05-08-2023         </span>│<span class="r4"> 05-08-2023         </span>│<span class="r3"> 05-08-2023         </span>│<span class="r4"> 05-08-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 4 - 1              </span>│<span class="r4"> 4 - 1              </span>│<span class="r3"> 4 - 1              </span>│<span class="r4"> 4 - 1              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│<span class="r3"> 16-09-2023         </span>│<span class="r4"> 16-09-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│<span class="r3"> 24-09-2023         </span>│<span class="r4"> 24-09-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│<span class="r3"> 21-10-2023         </span>│<span class="r4"> 21-10-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│<span class="r3"> 29-10-2023         </span>│<span class="r4"> 29-10-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│<span class="r3"> 0 - 1              </span>│<span class="r4"> 0 - 1              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│<span class="r3"> 05-11-2023         </span>│<span class="r4"> 05-11-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 3 - 1              </span>│<span class="r4"> 3 - 1              </span>│<span class="r3"> 3 - 1              </span>│<span class="r4"> 3 - 1              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│<span class="r3"> 12-11-2023         </span>│<span class="r4"> 12-11-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 1 - 3              </span>│<span class="r4"> 1 - 3              </span>│<span class="r3"> 1 - 3              </span>│<span class="r4"> 1 - 3              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│<span class="r3"> 06-08-2023         </span>│<span class="r4"> 06-08-2023         </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│<span class="r3"> 13-08-2023         </span>│<span class="r4"> 13-08-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│<span class="r3"> 19-08-2023         </span>│<span class="r4"> 19-08-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│<span class="r3"> 27-08-2023         </span>│<span class="r4"> 27-08-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 2 - 4              </span>│<span class="r4"> 2 - 4              </span>│<span class="r3"> 2 - 4              </span>│<span class="r4"> 2 - 4              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│<span class="r3"> 01-10-2023         </span>│<span class="r4"> 01-10-2023         </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│<span class="r3"> 07-10-2023         </span>│<span class="r4"> 07-10-2023         </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│<span class="r3"> 3 - 0              </span>│<span class="r4"> 3 - 0              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│<span class="r3"> 1 - 0              </span>│<span class="r4"> 1 - 0              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│<span class="r3"> 0 - 2              </span>│<span class="r4"> 0 - 2              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 5 - 1              </span>│<span class="r4"> 5 - 1              </span>│<span class="r3"> 5 - 1              </span>│<span class="r4"> 5 - 1              </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│<span class="r3"> 25-11-2023         </span>│<span class="r4"> 25-11-2023         </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│<span class="r3"> 29-07-2023         </span>│<span class="r4"> 29-07-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 09-08-2023         </span>│<span class="r4"> 09-08-2023         </span>│<span class="r3"> 09-08-2023         </span>│<span class="r4"> 09-08-2023         </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│<span class="r3"> 2 - 2              </span>│<span class="r4"> 2 - 2              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│<span class="r3"> 12-08-2023         </span>│<span class="r4"> 12-08-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│<span class="r3"> 1 - 1              </span>│<span class="r4"> 1 - 1              </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│<span class="r3"> 20-08-2023         </span>│<span class="r4"> 20-08-2023         </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│<span class="r3"> 26-08-2023         </span>│<span class="r4"> 26-08-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│
+│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│<span class="r3"> FC Salzburg        </span>│<span class="r4"> FC Salzburg        </span>│
+│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│<span class="r3"> 02-09-2023         </span>│<span class="r4"> 02-09-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│<span class="r3"> 0 - 3              </span>│<span class="r4"> 0 - 3              </span>│
+│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│<span class="r3"> Hartberg           </span>│<span class="r4"> Hartberg           </span>│
+│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│<span class="r3"> 17-09-2023         </span>│<span class="r4"> 17-09-2023         </span>│
+│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│<span class="r3"> Rapid Vienna       </span>│<span class="r4"> Rapid Vienna       </span>│
+│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│<span class="r3"> 3 - 3              </span>│<span class="r4"> 3 - 3              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│<span class="r3"> 23-09-2023         </span>│<span class="r4"> 23-09-2023         </span>│
+│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│<span class="r3"> Swarovski Watt     </span>│<span class="r4"> Swarovski Watt     </span>│
+│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│<span class="r3"> 30-09-2023         </span>│<span class="r4"> 30-09-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│<span class="r3"> 2 - 1              </span>│<span class="r4"> 2 - 1              </span>│
+│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│<span class="r3"> LASK Linz          </span>│<span class="r4"> LASK Linz          </span>│
+│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│<span class="r3"> 08-10-2023         </span>│<span class="r4"> 08-10-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│<span class="r3"> 1 - 2              </span>│<span class="r4"> 1 - 2              </span>│
+│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│<span class="r3"> SK Sturm Graz      </span>│<span class="r4"> SK Sturm Graz      </span>│
+│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│<span class="r3"> 22-10-2023         </span>│<span class="r4"> 22-10-2023         </span>│
+│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│<span class="r3"> SCR Altach         </span>│<span class="r4"> SCR Altach         </span>│
+│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│<span class="r3"> 0 - 0              </span>│<span class="r4"> 0 - 0              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│<span class="r3"> 28-10-2023         </span>│<span class="r4"> 28-10-2023         </span>│
+│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│<span class="r3"> FC BW Linz         </span>│<span class="r4"> FC BW Linz         </span>│
+│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│<span class="r3"> 2 - 0              </span>│<span class="r4"> 2 - 0              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│<span class="r3"> 04-11-2023         </span>│<span class="r4"> 04-11-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│<span class="r3"> 4 - 0              </span>│<span class="r4"> 4 - 0              </span>│
+│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│<span class="r3"> Austria Klagenfurt </span>│<span class="r4"> Austria Klagenfurt </span>│
+│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│<span class="r3"> 11-11-2023         </span>│<span class="r4"> 11-11-2023         </span>│
+│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│<span class="r3"> Austria Lustenau   </span>│<span class="r4"> Austria Lustenau   </span>│
+│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│<span class="r3"> 2 - 3              </span>│<span class="r4"> 2 - 3              </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│<span class="r3"> 26-11-2023         </span>│<span class="r4"> 26-11-2023         </span>│
+│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│<span class="r3"> Wolfsberger AC     </span>│<span class="r4"> Wolfsberger AC     </span>│
+│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│<span class="r3"> ? - ?              </span>│<span class="r4"> ? - ?              </span>│
+│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│<span class="r3"> FK Austria Vienna  </span>│<span class="r4"> FK Austria Vienna  </span>│
+└────────────────────┴────────────────────┴────────────────────┴────────────────────┘
+</code></pre>
+</body>
+</html>

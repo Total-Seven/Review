@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+.r1 {font-style: italic}
+.r2 {font-weight: bold}
+.r3 {color: #008080; text-decoration-color: #008080}
+.r4 {color: #800080; text-decoration-color: #800080}
+body {
+    color: #000000;
+    background-color: #ffffff;
+}
+</style>
+</head>
+<body>
+    <pre style="font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><code><span class="r1">                                                 Greece                                                  </span>
+┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃<span class="r2"> date                    </span>┃<span class="r2"> home_team               </span>┃<span class="r2"> score                   </span>┃<span class="r2"> away_team               </span>┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 2 - 3                   </span>│<span class="r4"> 2 - 3                   </span>│<span class="r3"> 2 - 3                   </span>│<span class="r4"> 2 - 3                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 25-09-2023              </span>│<span class="r4"> 25-09-2023              </span>│<span class="r3"> 25-09-2023              </span>│<span class="r4"> 25-09-2023              </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 02-10-2023              </span>│<span class="r4"> 02-10-2023              </span>│<span class="r3"> 02-10-2023              </span>│<span class="r4"> 02-10-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 08-10-2023              </span>│<span class="r4"> 08-10-2023              </span>│<span class="r3"> 08-10-2023              </span>│<span class="r4"> 08-10-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 0 - 3                   </span>│<span class="r4"> 0 - 3                   </span>│<span class="r3"> 0 - 3                   </span>│<span class="r4"> 0 - 3                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 30-10-2023              </span>│<span class="r4"> 30-10-2023              </span>│<span class="r3"> 30-10-2023              </span>│<span class="r4"> 30-10-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 04-11-2023              </span>│<span class="r4"> 04-11-2023              </span>│<span class="r3"> 04-11-2023              </span>│<span class="r4"> 04-11-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 4 - 1                   </span>│<span class="r4"> 4 - 1                   </span>│<span class="r3"> 4 - 1                   </span>│<span class="r4"> 4 - 1                   </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 21-10-2023              </span>│<span class="r4"> 21-10-2023              </span>│<span class="r3"> 21-10-2023              </span>│<span class="r4"> 21-10-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 1 - 3                   </span>│<span class="r4"> 1 - 3                   </span>│<span class="r3"> 1 - 3                   </span>│<span class="r4"> 1 - 3                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 1 - 4                   </span>│<span class="r4"> 1 - 4                   </span>│<span class="r3"> 1 - 4                   </span>│<span class="r4"> 1 - 4                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 02-10-2023              </span>│<span class="r4"> 02-10-2023              </span>│<span class="r3"> 02-10-2023              </span>│<span class="r4"> 02-10-2023              </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 0 - 3                   </span>│<span class="r4"> 0 - 3                   </span>│<span class="r3"> 0 - 3                   </span>│<span class="r4"> 0 - 3                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 01-09-2023              </span>│<span class="r4"> 01-09-2023              </span>│<span class="r3"> 01-09-2023              </span>│<span class="r4"> 01-09-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 18-09-2023              </span>│<span class="r4"> 18-09-2023              </span>│<span class="r3"> 18-09-2023              </span>│<span class="r4"> 18-09-2023              </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 23-09-2023              </span>│<span class="r4"> 23-09-2023              </span>│<span class="r3"> 23-09-2023              </span>│<span class="r4"> 23-09-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 02-10-2023              </span>│<span class="r4"> 02-10-2023              </span>│<span class="r3"> 02-10-2023              </span>│<span class="r4"> 02-10-2023              </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 08-10-2023              </span>│<span class="r4"> 08-10-2023              </span>│<span class="r3"> 08-10-2023              </span>│<span class="r4"> 08-10-2023              </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 5 - 0                   </span>│<span class="r4"> 5 - 0                   </span>│<span class="r3"> 5 - 0                   </span>│<span class="r4"> 5 - 0                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 28-10-2023              </span>│<span class="r4"> 28-10-2023              </span>│<span class="r3"> 28-10-2023              </span>│<span class="r4"> 28-10-2023              </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 1 - 3                   </span>│<span class="r4"> 1 - 3                   </span>│<span class="r3"> 1 - 3                   </span>│<span class="r4"> 1 - 3                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 25-08-2023              </span>│<span class="r4"> 25-08-2023              </span>│<span class="r3"> 25-08-2023              </span>│<span class="r4"> 25-08-2023              </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 1 - 3                   </span>│<span class="r4"> 1 - 3                   </span>│<span class="r3"> 1 - 3                   </span>│<span class="r4"> 1 - 3                   </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 0 - 3                   </span>│<span class="r4"> 0 - 3                   </span>│<span class="r3"> 0 - 3                   </span>│<span class="r4"> 0 - 3                   </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 20-10-2023              </span>│<span class="r4"> 20-10-2023              </span>│<span class="r3"> 20-10-2023              </span>│<span class="r4"> 20-10-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 01-09-2023              </span>│<span class="r4"> 01-09-2023              </span>│<span class="r3"> 01-09-2023              </span>│<span class="r4"> 01-09-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 4 - 4                   </span>│<span class="r4"> 4 - 4                   </span>│<span class="r3"> 4 - 4                   </span>│<span class="r4"> 4 - 4                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 28-10-2023              </span>│<span class="r4"> 28-10-2023              </span>│<span class="r3"> 28-10-2023              </span>│<span class="r4"> 28-10-2023              </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 04-11-2023              </span>│<span class="r4"> 04-11-2023              </span>│<span class="r3"> 04-11-2023              </span>│<span class="r4"> 04-11-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 18-08-2023              </span>│<span class="r4"> 18-08-2023              </span>│<span class="r3"> 18-08-2023              </span>│<span class="r4"> 18-08-2023              </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 16-09-2023              </span>│<span class="r4"> 16-09-2023              </span>│<span class="r3"> 16-09-2023              </span>│<span class="r4"> 16-09-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 23-09-2023              </span>│<span class="r4"> 23-09-2023              </span>│<span class="r3"> 23-09-2023              </span>│<span class="r4"> 23-09-2023              </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 20-10-2023              </span>│<span class="r4"> 20-10-2023              </span>│<span class="r3"> 20-10-2023              </span>│<span class="r4"> 20-10-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 04-11-2023              </span>│<span class="r4"> 04-11-2023              </span>│<span class="r3"> 04-11-2023              </span>│<span class="r4"> 04-11-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 16-09-2023              </span>│<span class="r4"> 16-09-2023              </span>│<span class="r3"> 16-09-2023              </span>│<span class="r4"> 16-09-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 23-09-2023              </span>│<span class="r4"> 23-09-2023              </span>│<span class="r3"> 23-09-2023              </span>│<span class="r4"> 23-09-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 02-10-2023              </span>│<span class="r4"> 02-10-2023              </span>│<span class="r3"> 02-10-2023              </span>│<span class="r4"> 02-10-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 30-10-2023              </span>│<span class="r4"> 30-10-2023              </span>│<span class="r3"> 30-10-2023              </span>│<span class="r4"> 30-10-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 06-11-2023              </span>│<span class="r4"> 06-11-2023              </span>│<span class="r3"> 06-11-2023              </span>│<span class="r4"> 06-11-2023              </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 24-11-2023              </span>│<span class="r4"> 24-11-2023              </span>│<span class="r3"> 24-11-2023              </span>│<span class="r4"> 24-11-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│<span class="r3"> 4 - 0                   </span>│<span class="r4"> 4 - 0                   </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 4 - 1                   </span>│<span class="r4"> 4 - 1                   </span>│<span class="r3"> 4 - 1                   </span>│<span class="r4"> 4 - 1                   </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 0 - 3                   </span>│<span class="r4"> 0 - 3                   </span>│<span class="r3"> 0 - 3                   </span>│<span class="r4"> 0 - 3                   </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 30-10-2023              </span>│<span class="r4"> 30-10-2023              </span>│<span class="r3"> 30-10-2023              </span>│<span class="r4"> 30-10-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 2 - 4                   </span>│<span class="r4"> 2 - 4                   </span>│<span class="r3"> 2 - 4                   </span>│<span class="r4"> 2 - 4                   </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 25-11-2023              </span>│<span class="r4"> 25-11-2023              </span>│<span class="r3"> 25-11-2023              </span>│<span class="r4"> 25-11-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│<span class="r3"> 27-08-2023              </span>│<span class="r4"> 27-08-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 1 - 3                   </span>│<span class="r4"> 1 - 3                   </span>│<span class="r3"> 1 - 3                   </span>│<span class="r4"> 1 - 3                   </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 30-10-2023              </span>│<span class="r4"> 30-10-2023              </span>│<span class="r3"> 30-10-2023              </span>│<span class="r4"> 30-10-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 2 - 4                   </span>│<span class="r4"> 2 - 4                   </span>│<span class="r3"> 2 - 4                   </span>│<span class="r4"> 2 - 4                   </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 25-11-2023              </span>│<span class="r4"> 25-11-2023              </span>│<span class="r3"> 25-11-2023              </span>│<span class="r4"> 25-11-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 16-09-2023              </span>│<span class="r4"> 16-09-2023              </span>│<span class="r3"> 16-09-2023              </span>│<span class="r4"> 16-09-2023              </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 0 - 5                   </span>│<span class="r4"> 0 - 5                   </span>│<span class="r3"> 0 - 5                   </span>│<span class="r4"> 0 - 5                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 25-09-2023              </span>│<span class="r4"> 25-09-2023              </span>│<span class="r3"> 25-09-2023              </span>│<span class="r4"> 25-09-2023              </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 1 - 4                   </span>│<span class="r4"> 1 - 4                   </span>│<span class="r3"> 1 - 4                   </span>│<span class="r4"> 1 - 4                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 08-10-2023              </span>│<span class="r4"> 08-10-2023              </span>│<span class="r3"> 08-10-2023              </span>│<span class="r4"> 08-10-2023              </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 5 - 0                   </span>│<span class="r4"> 5 - 0                   </span>│<span class="r3"> 5 - 0                   </span>│<span class="r4"> 5 - 0                   </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│<span class="r3"> 22-10-2023              </span>│<span class="r4"> 22-10-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 5 - 0                   </span>│<span class="r4"> 5 - 0                   </span>│<span class="r3"> 5 - 0                   </span>│<span class="r4"> 5 - 0                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 04-11-2023              </span>│<span class="r4"> 04-11-2023              </span>│<span class="r3"> 04-11-2023              </span>│<span class="r4"> 04-11-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│<span class="r3"> 26-11-2023              </span>│<span class="r4"> 26-11-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 25-08-2023              </span>│<span class="r4"> 25-08-2023              </span>│<span class="r3"> 25-08-2023              </span>│<span class="r4"> 25-08-2023              </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│<span class="r3"> 0 - 0                   </span>│<span class="r4"> 0 - 0                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 02-09-2023              </span>│<span class="r4"> 02-09-2023              </span>│<span class="r3"> 02-09-2023              </span>│<span class="r4"> 02-09-2023              </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 16-09-2023              </span>│<span class="r4"> 16-09-2023              </span>│<span class="r3"> 16-09-2023              </span>│<span class="r4"> 16-09-2023              </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 0 - 5                   </span>│<span class="r4"> 0 - 5                   </span>│<span class="r3"> 0 - 5                   </span>│<span class="r4"> 0 - 5                   </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│<span class="r3"> 01-10-2023              </span>│<span class="r4"> 01-10-2023              </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 08-10-2023              </span>│<span class="r4"> 08-10-2023              </span>│<span class="r3"> 08-10-2023              </span>│<span class="r4"> 08-10-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 21-10-2023              </span>│<span class="r4"> 21-10-2023              </span>│<span class="r3"> 21-10-2023              </span>│<span class="r4"> 21-10-2023              </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 28-10-2023              </span>│<span class="r4"> 28-10-2023              </span>│<span class="r3"> 28-10-2023              </span>│<span class="r4"> 28-10-2023              </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│<span class="r3"> 0 - 1                   </span>│<span class="r4"> 0 - 1                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│<span class="r3"> 12-11-2023              </span>│<span class="r4"> 12-11-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 25-11-2023              </span>│<span class="r4"> 25-11-2023              </span>│<span class="r3"> 25-11-2023              </span>│<span class="r4"> 25-11-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│<span class="r3"> 20-08-2023              </span>│<span class="r4"> 20-08-2023              </span>│
+│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│<span class="r3"> Olympiakos              </span>│<span class="r4"> Olympiakos              </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 02-09-2023              </span>│<span class="r4"> 02-09-2023              </span>│<span class="r3"> 02-09-2023              </span>│<span class="r4"> 02-09-2023              </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│<span class="r3"> 17-09-2023              </span>│<span class="r4"> 17-09-2023              </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 4 - 4                   </span>│<span class="r4"> 4 - 4                   </span>│<span class="r3"> 4 - 4                   </span>│<span class="r4"> 4 - 4                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 23-09-2023              </span>│<span class="r4"> 23-09-2023              </span>│<span class="r3"> 23-09-2023              </span>│<span class="r4"> 23-09-2023              </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│<span class="r3"> 28-09-2023              </span>│<span class="r4"> 28-09-2023              </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│<span class="r3"> 3 - 2                   </span>│<span class="r4"> 3 - 2                   </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 21-10-2023              </span>│<span class="r4"> 21-10-2023              </span>│<span class="r3"> 21-10-2023              </span>│<span class="r4"> 21-10-2023              </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│<span class="r3"> 1 - 0                   </span>│<span class="r4"> 1 - 0                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│<span class="r3"> 29-10-2023              </span>│<span class="r4"> 29-10-2023              </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 5 - 0                   </span>│<span class="r4"> 5 - 0                   </span>│<span class="r3"> 5 - 0                   </span>│<span class="r4"> 5 - 0                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 06-11-2023              </span>│<span class="r4"> 06-11-2023              </span>│<span class="r3"> 06-11-2023              </span>│<span class="r4"> 06-11-2023              </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 25-11-2023              </span>│<span class="r4"> 25-11-2023              </span>│<span class="r3"> 25-11-2023              </span>│<span class="r4"> 25-11-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│<span class="r3"> Panserraikos            </span>│<span class="r4"> Panserraikos            </span>│
+│<span class="r3"> 18-08-2023              </span>│<span class="r4"> 18-08-2023              </span>│<span class="r3"> 18-08-2023              </span>│<span class="r4"> 18-08-2023              </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│<span class="r3"> 2 - 2                   </span>│<span class="r4"> 2 - 2                   </span>│
+│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│<span class="r3"> Lamia                   </span>│<span class="r4"> Lamia                   </span>│
+│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│<span class="r3"> 26-08-2023              </span>│<span class="r4"> 26-08-2023              </span>│
+│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│<span class="r3"> Panathinaikos           </span>│<span class="r4"> Panathinaikos           </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│<span class="r3"> 03-09-2023              </span>│<span class="r4"> 03-09-2023              </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 2 - 3                   </span>│<span class="r4"> 2 - 3                   </span>│<span class="r3"> 2 - 3                   </span>│<span class="r4"> 2 - 3                   </span>│
+│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│<span class="r3"> AEK                     </span>│<span class="r4"> AEK                     </span>│
+│<span class="r3"> 18-09-2023              </span>│<span class="r4"> 18-09-2023              </span>│<span class="r3"> 18-09-2023              </span>│<span class="r4"> 18-09-2023              </span>│
+│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│<span class="r3"> Atromitos               </span>│<span class="r4"> Atromitos               </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│<span class="r3"> 24-09-2023              </span>│<span class="r4"> 24-09-2023              </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│<span class="r3"> 1 - 2                   </span>│<span class="r4"> 1 - 2                   </span>│
+│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│<span class="r3"> Asteras Tripolis        </span>│<span class="r4"> Asteras Tripolis        </span>│
+│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│<span class="r3"> 27-09-2023              </span>│<span class="r4"> 27-09-2023              </span>│
+│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│<span class="r3"> PAOK                    </span>│<span class="r4"> PAOK                    </span>│
+│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│<span class="r3"> 3 - 0                   </span>│<span class="r4"> 3 - 0                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 21-10-2023              </span>│<span class="r4"> 21-10-2023              </span>│<span class="r3"> 21-10-2023              </span>│<span class="r4"> 21-10-2023              </span>│
+│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│<span class="r3"> Panetolikos             </span>│<span class="r4"> Panetolikos             </span>│
+│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│<span class="r3"> 2 - 0                   </span>│<span class="r4"> 2 - 0                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 28-10-2023              </span>│<span class="r4"> 28-10-2023              </span>│<span class="r3"> 28-10-2023              </span>│<span class="r4"> 28-10-2023              </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│<span class="r3"> 2 - 1                   </span>│<span class="r4"> 2 - 1                   </span>│
+│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│<span class="r3"> Kifisia                 </span>│<span class="r4"> Kifisia                 </span>│
+│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│<span class="r3"> 05-11-2023              </span>│<span class="r4"> 05-11-2023              </span>│
+│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│<span class="r3"> Giannina                </span>│<span class="r4"> Giannina                </span>│
+│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│<span class="r3"> 1 - 1                   </span>│<span class="r4"> 1 - 1                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│<span class="r3"> 11-11-2023              </span>│<span class="r4"> 11-11-2023              </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│<span class="r3"> 0 - 2                   </span>│<span class="r4"> 0 - 2                   </span>│
+│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│<span class="r3"> Aris Thessalon.         </span>│<span class="r4"> Aris Thessalon.         </span>│
+│<span class="r3"> 24-11-2023              </span>│<span class="r4"> 24-11-2023              </span>│<span class="r3"> 24-11-2023              </span>│<span class="r4"> 24-11-2023              </span>│
+│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│<span class="r3"> OFI                     </span>│<span class="r4"> OFI                     </span>│
+│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│<span class="r3"> ? - ?                   </span>│<span class="r4"> ? - ?                   </span>│
+│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│<span class="r3"> Volos New Football Club </span>│<span class="r4"> Volos New Football Club </span>│
+└─────────────────────────┴─────────────────────────┴─────────────────────────┴─────────────────────────┘
+</code></pre>
+</body>
+</html>
